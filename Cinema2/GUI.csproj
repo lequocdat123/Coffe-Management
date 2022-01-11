@@ -1,0 +1,441 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{88F70CEE-4BA3-4049-BAEF-5E9715F52AA7}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>CoffeShopManagerment</RootNamespace>
+    <AssemblyName>CoffeShopManagerment</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Bcl.AsyncInterfaces, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\Microsoft.Bcl.AsyncInterfaces.6.0.0\lib\net461\Microsoft.Bcl.AsyncInterfaces.dll</HintPath>
+    </Reference>
+    <Reference Include="MySql.Data, Version=8.0.27.0, Culture=neutral, PublicKeyToken=c5687fc88969c44d, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\v4.5.2\MySql.Data.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Buffers, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Buffers.4.5.1\lib\net461\System.Buffers.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Memory, Version=4.0.1.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Memory.4.5.4\lib\net461\System.Memory.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Numerics" />
+    <Reference Include="System.Numerics.Vectors, Version=4.1.4.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Numerics.Vectors.4.5.0\lib\net46\System.Numerics.Vectors.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.CompilerServices.Unsafe, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Runtime.CompilerServices.Unsafe.6.0.0\lib\net461\System.Runtime.CompilerServices.Unsafe.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Text.Encodings.Web, Version=6.0.0.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Encodings.Web.6.0.0\lib\net461\System.Text.Encodings.Web.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Text.Json, Version=6.0.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Text.Json.6.0.1\lib\net461\System.Text.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Threading.Tasks.Extensions, Version=4.2.0.1, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Extensions.4.5.4\lib\net461\System.Threading.Tasks.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.ValueTuple, Version=4.0.3.0, Culture=neutral, PublicKeyToken=cc7b13ffcd2ddd51, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.ValueTuple.4.5.0\lib\net47\System.ValueTuple.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BillControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="BillControl.Designer.cs">
+      <DependentUpon>BillControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="DAO\BillDetail_DAO.cs" />
+    <Compile Include="DAO\Bill_DAO.cs" />
+    <Compile Include="DAO\DBConnection.cs" />
+    <Compile Include="DAO\Employee_DAO.cs" />
+    <Compile Include="DAO\Menu_DAO.cs" />
+    <Compile Include="DAO\Product_DAO.cs" />
+    <Compile Include="DAO\Table_DAO.cs" />
+    <Compile Include="DTO\Bill.cs" />
+    <Compile Include="DTO\BillDetail.cs" />
+    <Compile Include="DTO\Employee.cs" />
+    <Compile Include="DTO\Menu.cs" />
+    <Compile Include="DTO\Product.cs" />
+    <Compile Include="DTO\Table.cs" />
+    <Compile Include="Manage.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Manage.Designer.cs">
+      <DependentUpon>Manage.cs</DependentUpon>
+    </Compile>
+    <Compile Include="MainGUI.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MainGUI.Designer.cs">
+      <DependentUpon>MainGUI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Booking.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Booking.Designer.cs">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Product.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="Product.Designer.cs">
+      <DependentUpon>Product.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="TableControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="TableControl.Designer.cs">
+      <DependentUpon>TableControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="StaffControll.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="StaffControll.Designer.cs">
+      <DependentUpon>StaffControll.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ReportControl.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ReportControl.Designer.cs">
+      <DependentUpon>ReportControl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Utils\ButtonSetup.cs" />
+    <EmbeddedResource Include="BillControl.resx">
+      <DependentUpon>BillControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Manage.resx">
+      <DependentUpon>Manage.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MainGUI.resx">
+      <DependentUpon>MainGUI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Booking.resx">
+      <DependentUpon>Booking.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Product.resx">
+      <DependentUpon>Product.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <EmbeddedResource Include="TableControl.resx">
+      <DependentUpon>TableControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="StaffControll.resx">
+      <DependentUpon>StaffControll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ReportControl.resx">
+      <DependentUpon>ReportControl.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="packages.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\.DS_Store" />
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-home-icon-142451.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\white-home-icon-1424511.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toppng.com-free-twitter-white-icon-employee-icon-white-537x501 %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngfuel.com.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CG4.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\trash.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cinema-screen %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\management %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\image1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngfuel.com %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\toppng.com-free-twitter-white-icon-employee-icon-white-537x501 %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mathematics.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\register.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\rubber.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CG41.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\unnamed.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngfuel.com %281%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\project.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\icons8-back-arrow-64.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-cinema-seat-5b37ce0253bd27.424914831530383874343.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\pngwing.com %282%291.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\orange-polygonal-background-fade-3.png" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <Content Include="Resources\104465339_194467221913435_3583778043675453086_n.png" />
+    <None Include="Resources\bg.png" />
+    <None Include="Resources\x-icon-white-7.jpg1.png" />
+    <None Include="Resources\white-ceramic-coffee-cup-with-white-ceramic-saucer-10364441.jpg" />
+    <None Include="Resources\tra-dao1.jpg" />
+    <None Include="Resources\time-8-321.png" />
+    <None Include="Resources\Sting1.jpg" />
+    <None Include="Resources\sinchronize-321.png" />
+    <None Include="Resources\readme1.png" />
+    <None Include="Resources\qlmon1.png" />
+    <None Include="Resources\PngItem_56797651.png" />
+    <None Include="Resources\plus-5-321.png" />
+    <None Include="Resources\pdf1.jpg" />
+    <None Include="Resources\order1.png" />
+    <None Include="Resources\minus-5-321.png" />
+    <None Include="Resources\logout1.png" />
+    <None Include="Resources\logo-login1.png" />
+    <None Include="Resources\login-icon1.png" />
+    <None Include="Resources\inventory1.png" />
+    <None Include="Resources\expresso1.jpg" />
+    <None Include="Resources\employees1.png" />
+    <None Include="Resources\edit-8-321.png" />
+    <None Include="Resources\customer1.png" />
+    <None Include="Resources\cappuccino-filled-cup-on-red-saucer-14143041.jpg" />
+    <None Include="Resources\capheden1.jpg" />
+    <None Include="Resources\caketisurami1.jpg" />
+    <None Include="Resources\cakemousse1.jpeg" />
+    <None Include="Resources\cakecheese1.jpg" />
+    <None Include="Resources\bacxiu1.jpg" />
+    <None Include="Resources\background1.jpg" />
+    <None Include="Resources\a1.jpg" />
+    <None Include="Resources\104465339_194467221913435_3583778043675453086_n1.png" />
+    <Content Include="Resources\a.jpg" />
+    <Content Include="Resources\background.jpg" />
+    <Content Include="Resources\bacxiu.jpg" />
+    <None Include="Resources\bg-1.png" />
+    <None Include="Resources\btn.png" />
+    <None Include="Resources\btn2.png" />
+    <Content Include="Resources\cakecheese.jpg" />
+    <Content Include="Resources\cakemousse.jpeg" />
+    <Content Include="Resources\caketisurami.jpg" />
+    <Content Include="Resources\capheden.jpg" />
+    <Content Include="Resources\cappuccino-filled-cup-on-red-saucer-1414304.jpg" />
+    <None Include="Resources\Cappuccino.png" />
+    <Content Include="Resources\customer.png" />
+    <None Include="Resources\Delete Button.png" />
+    <Content Include="Resources\edit-8-32.png" />
+    <Content Include="Resources\employees.png" />
+    <Content Include="Resources\expresso.jpg" />
+    <None Include="Resources\Images\btnDeleteHCN.png" />
+    <None Include="Resources\Images\PlusandMinus.png" />
+    <None Include="Resources\Images\Minus.png" />
+    <None Include="Resources\Images\pngaaa.com-4592047.png" />
+    <Content Include="Resources\Images\product-0.jpg" />
+    <Content Include="Resources\Images\product-1.jpg" />
+    <Content Include="Resources\Images\product-10.jpg" />
+    <Content Include="Resources\Images\product-11.jpg" />
+    <Content Include="Resources\Images\product-12.jpg" />
+    <Content Include="Resources\Images\product-13.jpg" />
+    <Content Include="Resources\Images\product-15.jpg" />
+    <Content Include="Resources\Images\product-16.jpg" />
+    <Content Include="Resources\Images\product-17.jpg" />
+    <Content Include="Resources\Images\product-18.jpg" />
+    <Content Include="Resources\Images\product-19.jpg" />
+    <Content Include="Resources\Images\product-2.jpg" />
+    <Content Include="Resources\Images\product-20.jpg" />
+    <Content Include="Resources\Images\product-21.jpg" />
+    <Content Include="Resources\Images\product-22.jpg" />
+    <Content Include="Resources\Images\product-23.jpg" />
+    <Content Include="Resources\Images\product-24.jpg" />
+    <Content Include="Resources\Images\product-3.jpg" />
+    <Content Include="Resources\Images\product-4.jpg" />
+    <Content Include="Resources\Images\product-5.jpg" />
+    <Content Include="Resources\Images\product-6.jpg" />
+    <Content Include="Resources\Images\product-7.jpg" />
+    <Content Include="Resources\Images\product-8.jpg" />
+    <Content Include="Resources\Images\product-9.jpg" />
+    <None Include="Resources\Images\table.png" />
+    <None Include="Resources\Images\table2.png" />
+    <None Include="Resources\Images\productcf.png" />
+    <Content Include="Resources\inventory.png" />
+    <Content Include="Resources\login-icon.png" />
+    <None Include="Resources\Logo Coffee.png" />
+    <Content Include="Resources\logo-login.png" />
+    <Content Include="Resources\logout.png" />
+    <Content Include="Resources\minus-5-32.png" />
+    <Content Include="Resources\order.png" />
+    <Content Include="Resources\pdf.jpg" />
+    <Content Include="Resources\plus-5-32.png" />
+    <None Include="Resources\plus.png" />
+    <Content Include="Resources\PngItem_5679765.png" />
+    <None Include="Resources\product-0.jpg" />
+    <None Include="Resources\product-10.jpg" />
+    <None Include="Resources\product-11.jpg" />
+    <None Include="Resources\product-12.jpg" />
+    <None Include="Resources\product-13.jpg" />
+    <None Include="Resources\product-15.jpg" />
+    <None Include="Resources\product-16.jpg" />
+    <None Include="Resources\product-17.jpg" />
+    <None Include="Resources\product-18.jpg" />
+    <None Include="Resources\product-19.jpg" />
+    <None Include="Resources\product-1.jpg" />
+    <None Include="Resources\product-20.jpg" />
+    <None Include="Resources\product-21.jpg" />
+    <None Include="Resources\product-22.jpg" />
+    <None Include="Resources\product-23.jpg" />
+    <None Include="Resources\product-24.jpg" />
+    <None Include="Resources\product-2.jpg" />
+    <None Include="Resources\product-3.jpg" />
+    <None Include="Resources\product-4.jpg" />
+    <None Include="Resources\product-6.jpg" />
+    <None Include="Resources\product-7.jpg" />
+    <None Include="Resources\product-8.jpg" />
+    <None Include="Resources\product-9.jpg" />
+    <None Include="Resources\product-5.jpg" />
+    <Content Include="Resources\qlmon.png" />
+    <None Include="Resources\qlmon2.png" />
+    <Content Include="Resources\readme.png" />
+    <None Include="Resources\Rectangle.png" />
+    <None Include="Resources\Rectangle 172.png" />
+    <Content Include="Resources\sinchronize-32.png" />
+    <Content Include="Resources\Sting.jpg" />
+    <Content Include="Resources\time-8-32.png" />
+    <Content Include="Resources\tra-dao.jpg" />
+    <None Include="Resources\Update.png" />
+    <None Include="Resources\Update1.png" />
+    <Content Include="Resources\white-ceramic-coffee-cup-with-white-ceramic-saucer-1036444.jpg" />
+    <Content Include="Resources\x-icon-white-7.jpg.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Import Project="..\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets" Condition="Exists('..\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\System.Text.Json.6.0.1\build\System.Text.Json.targets'))" />
+  </Target>
+</Project>

@@ -1,0 +1,134 @@
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\bin\Debug\Cinema2.exe.config
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\bin\Debug\Cinema2.exe
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\bin\Debug\Cinema2.pdb
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\Cinema2.Properties.Resources.resources
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\Cinema2.exe
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\Cinema2.pdb
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\bin\Debug\BUS.dll
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\bin\Debug\DTO.dll
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\bin\Debug\BUS.pdb
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\bin\Debug\DTO.pdb
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\Cinema2.Login.resources
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\Cinema2.ControllMovie.resources
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\Cinema2.BillControl.resources
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\Cinema2.StaffControll.resources
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\Cinema2.Manage.resources
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\Cinema2.Form2.resources
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\Cinema2.Booking.resources
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\Cinema2.ShowtimeControl.resources
+C:\Users\vnngu\source\repos\Cinema2\Cinema2\obj\Debug\Cinema2.ReportControl.resources
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\Cinema2.exe.config
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\Cinema2.exe
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\Cinema2.pdb
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\BUS.dll
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\DTO.dll
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\BUS.pdb
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\DTO.pdb
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\GUI.csprojAssemblyReference.cache
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\Cinema2.BillControl.resources
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\Cinema2.Manage.resources
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\Cinema2.Form2.resources
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\Cinema2.Login.resources
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\Cinema2.Booking.resources
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\Cinema2.ControllMovie.resources
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\Cinema2.Properties.Resources.resources
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\Cinema2.ShowtimeControl.resources
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\Cinema2.StaffControll.resources
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\Cinema2.ReportControl.resources
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\GUI.csproj.CopyComplete
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\Cinema2.exe
+C:\Users\vnngu\Desktop\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\Cinema2.pdb
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\GUI.csprojAssemblyReference.cache
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\GUI.csproj.GenerateResource.cache
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\GUI.csproj.CopyComplete
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\MySql.Data.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\Google.Protobuf.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\ZstdNet.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\K4os.Compression.LZ4.Streams.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\BouncyCastle.Crypto.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\Ubiety.Dns.Core.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Memory.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Buffers.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\K4os.Compression.LZ4.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\K4os.Hash.xxHash.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Numerics.Vectors.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\MySql.Data.xml
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\Newtonsoft.Json.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\Newtonsoft.Json.xml
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\CoffeShopManagerment.exe.config
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\CoffeShopManagerment.exe
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\CoffeShopManagerment.pdb
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Text.Encodings.Web.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Text.Json.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Threading.Tasks.Extensions.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.ValueTuple.dll
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Buffers.xml
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Memory.xml
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Numerics.Vectors.xml
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Text.Encodings.Web.xml
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Text.Json.xml
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.Threading.Tasks.Extensions.xml
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\bin\Debug\System.ValueTuple.xml
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.BillControl.resources
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.Manage.resources
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.Form2.resources
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.Login.resources
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.Booking.resources
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.ControllMovie.resources
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.Properties.Resources.resources
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.StaffControll.resources
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.ReportControl.resources
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.exe
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.pdb
+E:\Downloads\Báo cáo PTTK\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.TableControl.resources
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\GUI.csproj.AssemblyReference.cache
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\GUI.csproj.SuggestedBindingRedirects.cache
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.exe
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.pdb
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\CoffeShopManagerment.exe.config
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\CoffeShopManagerment.exe
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\CoffeShopManagerment.pdb
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.dll
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\Newtonsoft.Json.dll
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Buffers.dll
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Memory.dll
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Text.Encodings.Web.dll
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Text.Json.dll
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Threading.Tasks.Extensions.dll
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.ValueTuple.dll
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\Microsoft.Bcl.AsyncInterfaces.xml
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\Newtonsoft.Json.xml
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Buffers.xml
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Memory.xml
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Text.Encodings.Web.xml
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Text.Json.xml
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.Threading.Tasks.Extensions.xml
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\bin\Debug\System.ValueTuple.xml
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.BillControl.resources
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.Manage.resources
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.Form2.resources
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.Login.resources
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.Booking.resources
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.ControllMovie.resources
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.Properties.Resources.resources
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.TableControl.resources
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.StaffControll.resources
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\CoffeShopManagerment.ReportControl.resources
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\GUI.csproj.GenerateResource.cache
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\GUI.csproj.CoreCompileInputs.cache
+C:\Users\ADMIN\Downloads\Coffe\Cinema2\Cinema2\obj\Debug\GUI.csproj.CopyComplete
